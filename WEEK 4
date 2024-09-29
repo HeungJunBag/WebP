@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Week 4</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Week 4</h1>
+    </header>
+
+    <main>
+        <h2>1. 직접 객체 만들기</h2>
+        <p id="direct-object"></p>
+
+        <h2>2. 리터럴 표기법</h2>
+        <p id="literal-object"></p>
+
+        <h2>3. Prototype을 사용한 객체 생성</h2>
+        <p id="prototype-object"></p>
+    </main>
+
+    <script>
+        // 1. 직접 객체 만들기
+        console.log("1. 직접 객체 만들기");
+
+        const course1 = new Object();
+        course1.name = "웹프로그래밍";
+        course1.studentCount = 0;
+
+        // 초기 상태 출력
+        document.getElementById("direct-object").innerHTML = `교과목 이름 = ${course1.name}<br>등록 학생 수 = ${course1.studentCount}`;
+
+        console.log(`교과목 이름 = ${course1.name}`);
+        console.log(`등록 학생 수 = ${course1.studentCount}`);
+
+        // 학생 수 증가 후 상태 출력
+        course1.studentCount += 1;
+
+        console.log(`after register, 등록 학생 수 = ${course1.studentCount}`);
+        document.getElementById("direct-object").innerHTML += `<br>after register, 등록 학생 수 = ${course1.studentCount}`;
+
+        console.log("\n");
+
+        // 2. 리터럴 표기법
+        console.log("2. 리터럴 표기법");
+
+        const course2 = {
+            name: "웹프로그래밍",
+            studentCount: 0
+        };
+
+        // 초기 상태 출력
+        document.getElementById("literal-object").innerHTML = `교과목 이름 = ${course2.name}<br>등록 학생 수 = ${course2.studentCount}`;
+
+        console.log(`교과목 이름 = ${course2.name}`);
+        console.log(`등록 학생 수 = ${course2.studentCount}`);
+
+        // 학생 수 증가 후 상태 출력
+        course2.studentCount += 1;
+
+        console.log(`after register, 등록 학생 수 = ${course2.studentCount}`);
+        document.getElementById("literal-object").innerHTML += `<br>after register, 등록 학생 수 = ${course2.studentCount}`;
+
+        console.log("\n");
+
+        // 3. Prototype을 사용한 객체 생성
+        console.log("3. Prototype");
+
+        function Course(name) {
+            this.name = name;
+            this.studentCount = 0;
+        }
+
+        Course.prototype.registerStudent = function () {
+            this.studentCount += 1;
+        };
+
+        const course3 = new Course("웹프로그래밍");
+
+        // 초기 상태 출력
+        document.getElementById("prototype-object").innerHTML = `교과목 이름 = ${course3.name}<br>등록 학생 수 = ${course3.studentCount}`;
+
+        console.log(`교과목 이름 = ${course3.name}`);
+        console.log(`등록 학생 수 = ${course3.studentCount}`);
+
+        // 학생 수 증가 후 상태 출력
+        course3.registerStudent();
+
+        console.log(`after register, 등록 학생 수 = ${course3.studentCount}`);
+        document.getElementById("prototype-object").innerHTML += `<br>after register, 등록 학생 수 = ${course3.studentCount}`;
+
+    </script>
+
+</body>
+
+</html>
