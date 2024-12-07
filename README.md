@@ -1,22 +1,40 @@
-###### Week 1
-![week1](https://github.com/user-attachments/assets/93c23e63-327d-47a1-b48a-91e14ab3ca78)
+# Web Programming 실습 코드 모음
 
-___
-###### Week 2
-<img width="550" alt="week2-1" src="https://github.com/user-attachments/assets/1e566120-4cc1-4175-ac06-99b5d41c75b0">
+## 1. week1.html
+- **1주차 연습**
+  - 기본 HTML 문서 작성
+  - 1주차 공부 내용 정리
 
-<img width="331" alt="week2-2" src="https://github.com/user-attachments/assets/718931a5-849c-4606-9fba-6feb8742ab63">
+## 2. week2.html
+- **2주차 연습**
+  - 표, 링크, 시맨틱 태그 등 추가
+  - 2주차 공부 내용 정리 추가
 
-___
-###### Week 3
-![week3-1](https://github.com/user-attachments/assets/20bd02bd-b5ff-482c-89dd-ee09f5e545c7)
+## 3. week3.html
+- **3주차 연습**
+  - CSS3 style 공부
 
-![week3-2](https://github.com/user-attachments/assets/f54ec8a7-a313-4c37-b1cf-9ac79294d729)
+---
 
-![week3-3](https://github.com/user-attachments/assets/e4fd6547-eaa6-4cb4-9008-68167dbd6942)
+## object-gen.html
+- **객체 생성 3가지 방법 연습**
 
+---
 
+## Week 5 연습
+- **prac8-4.html**: 실습문제 8-4
+- **prac8-6.html**: 실습문제 8-6
 
+---
 
+## Week 6 연습
+- **prac9-2.html**: 실습문제 9-2 (라디오버튼 선택된 것 알아내서 그림 그리기)
+- **prac9-3.html**: 실습문제 9-3 (Enter 키가 입력되었을 때 수식의 값을 계산하기)
 
+---
+
+## Week 7 연습
+- **prac10-5.html**: 실습문제 10-5와 10-6을 포함 (SetTimeout, SetInterval 이용 시계 보이기)
+
+---
 
