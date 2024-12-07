@@ -41,7 +41,42 @@
 
 ---
 
+## Week 9 연습
+- **1. 쿠키**
+- **2. 세션 스토리지**
+- **3. 로컬 스토리지**
+- **4. (실습)스토리지 조작 코드 작성**
+
+
+- **ex12-1.html**
+- **practice_12-02-search.html**
+- **practice_12-02-store.html**
+- **practice_12-04-store.html**
+- **practice_12-04-view.html**
+- **practice_12-05-form.html**
+
+---
+
+## Week 10 연습
+- **1. 오디오, 비디오 제어 방법**
+- **2. 웹워커 정의, 동작 방식**
+- **3. (실습) 오디오/비디오 제어기, 웹워커 생성 및 통신**
+
+- **ex13-10**
+  - **ex13-10.html**
+  - **time.js**
+- **practice13-06**
+  - **practice_13-06-calculate.js**
+  - **practice_13-06.html**
+
+---
+
 ## Week 11 연습
+**1. data type**
+**2. ES6**
+**3. hoisting, var, let, const**
+
+
 - **1. var01.js**
 - **2. var02.js**
 - **3. let.js**
@@ -51,18 +86,35 @@
 ---
 
 ## Week 12 연습
+**1. Scope, Closure**
+**2. JS function**
+**3. functional programming**
+
+
 - **1. 쇼핑 카트의 총 금액 계산하기 (funcPr-practice_01.js)**
 - **2. 이름 목록 변환하기(funcPr-practice_02.js)**
 
 ---
 
 ## Week 13 연습
+**1. Node.js 소개**
+**2. Node.js 기본 기능**
+**3. (실습) Module 활용 web server 만들기**
+
+
 - **1. webserver1.js**
 - **2. webserver2.js**
 
 ---
 
 ## Week 14 연습
+**Express.js**
+**1. Introduction**
+**2. 시작하기**
+**3. Middleware**
+**4. Router**
+
+**Express/my-express-app**
 - **1. app1.js**
 - **2. app4.js**
 - **3. app7.js**
